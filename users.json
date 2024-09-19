@@ -1,0 +1,20 @@
+[
+  {
+    "fullName": "Ivan Ivanenko",
+    "email": "ivan.ivanov@example.com",
+    "dateOfBirth": "1990-05-15",
+    "heardAboutEvent": "Social Media"
+  },
+  {
+    "fullName": "Maria Petrenko",
+    "email": "maria.petrova@example.com",
+    "dateOfBirth": "1985-11-23",
+    "heardAboutEvent": "Friend"
+  },
+  {
+    "fullName": "Alexey Sidoruk",
+    "email": "alexey.sidorov@example.com",
+    "dateOfBirth": "1992-07-30",
+    "heardAboutEvent": "Found myself"
+  }
+]
