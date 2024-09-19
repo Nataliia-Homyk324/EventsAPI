@@ -1,8 +1,14 @@
 import { getAllUsers, createUser } from '../services/users.js';
+import { parsePaginationParams } from '../utils/parsePaginationParams.js';
+
 
 export const getUsersController = async (req, res, next) => {
-    try {
-        const users = await getAllUsers();
+  try {
+       const { page, perPage } = parsePaginationParams(req.query);
+    const users = await getAllUsers({
+      page,
+      perPage,
+    });
 
         res.json({
             status: 200,
